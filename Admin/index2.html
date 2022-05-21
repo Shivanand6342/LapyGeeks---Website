@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> LapyGeeks </title>
+  <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="style2.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">New Product</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Laptop's Name</span>
+            <input type="text" placeholder="Enter Laptop's name" name="FullName" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Category</span>
+            <select style="height: 44px; width: 300px;">
+              <option selected>Select Category</option>
+              <option value="1">Professional</option>
+              <option value="2">Creator</option>
+              <option value="3">Gaming</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Description</span>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" style="width: 645px;" required>
+            </textarea>
+          </div>
+        </div>
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Price (in $)</span>
+            <input type="number" placeholder="Enter Price" name="price" required><br>
+          </div>
+          <div class="input-box">
+            <div class="input-box">
+              <span class="details">Upload Image</span>
+              <input type="file" style="width: 300px; height: 46px; padding-top: 9px;" required>
+            </div>
+          </div>
+        </div>
+        <div class="input-box">
+          <span class="details">RAM</span>
+          <select style="height: 44px; width: 300px;">
+            <option selected>Select RAM</option>
+            <option value="1">4 GB</option>
+            <option value="2">8 GB</option>
+            <option value="3">16 GB</option>
+          </select>
+        </div>
+        <div class="button">
+          <input type="submit" value="Add Product">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
